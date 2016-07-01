@@ -1,0 +1,19 @@
+.hdr
+{
+	background:#9F0;
+	min-height:100px;	
+}
+
+.d1
+{
+		background:#F90;
+		margin-top:20px;
+}
+
+
+.d2
+{
+		background:#F3C;
+		margin-top:30px;
+}
+

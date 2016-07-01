@@ -1,0 +1,54 @@
+.main
+{
+	width:100%; margin:auto;
+	color:#0CF;
+}
+
+
+
+#slides {
+  position: relative;
+  
+}
+#slides .slides-container {
+  display: none;
+  
+  
+}
+#slides .scrollable {
+  *zoom: 1;
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+#slides .scrollable:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.slides-navigation {
+  margin: 0 auto;
+  position: absolute;
+  z-index: 3;
+  top: 34%;
+  width: 100%;
+}
+.slides-navigation a {
+  position: absolute;
+  display: block;
+  outline:none;
+  width:3.75%;
+}
+.slides-navigation a.prev {
+  left: 0;
+}
+.slides-navigation a.next {
+  right:0%;
+}
+
+.slides-navigation a.prev img,.slides-navigation a.next img {
+  width:100%;
+}

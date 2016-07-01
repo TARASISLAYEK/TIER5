@@ -1,0 +1,6 @@
+.hdr
+{
+	background:#9F0;
+	min-height:100px;	
+}
+
